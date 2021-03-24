@@ -3,4 +3,4 @@ numpy>=1.12.1
 pandas>=0.19.2
 pyyaml
 statsmodels
-tensorflow==1.15.2
+tensorflow==2.4.0
