@@ -5,7 +5,12 @@ The Dataset and code description for the paper titled "CrimeForecaster: Crime Pr
 If you want to use our code/data or find CrimeForecaster insightful to your research, please cite our work:
 
 ```
-Bibtex TBA
+@inproceedings{Sun2020CrimeForecasterCP,
+  title={CrimeForecaster: Crime Prediction by Exploiting the Geographical Neighborhoods' Spatiotemporal Dependencies},
+  author={Jiao Sun and Mingxuan Yue and Zongyu Lin and Xiaochen Yang and L. Nocera and Gabriel Kahn and C. Shahabi},
+  booktitle={ECML/PKDD},
+  year={2020}
+}
 ```
 
 ## Dataset Description
@@ -100,8 +105,4 @@ python scripts/gen_adj_mx.py --sensor_ids_filename=graph/neighborhood_ids_la.txt
 
   The neighborhood ID journalists you may be interested in: Auburn Gresham: 71, Fuller Park: 37, RIVERDALE: 54
 
-  
-
-## Acknowledgement
-
-We want to thank all the research works we have cited in our paper, including MiST, DCRNN, etc. They all bring precious insights into our work! 
+ 
